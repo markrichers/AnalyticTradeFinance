@@ -52,7 +52,7 @@ env\Scripts\activate     # For Windows
 </code>
 </pre>
 
-<h3>Install dependencies:</h3>
+<h3>4. Install dependencies:</h3>
 <p>Install all the required Python libraries:</p>
 
 <pre>
@@ -61,10 +61,10 @@ pip install -r requirements.txt
 </code>
 </pre>
 
-<h3>Add your data file:</h3>
+<h3>5.Add your data file:</h3>
 <p>Place your ING bank statement file named <code>bank_statement_expenses.csv</code> in the <code>/data</code> folder.</p>
 
-<h3>Run the Jupyter Notebook server:</h3>
+<h3>6.Run the Jupyter Notebook server:</h3>
 <p>Start the Jupyter Notebook server to interact with the project:</p>
 
 <pre>
@@ -73,7 +73,7 @@ jupyter notebook
 </code>
 </pre>
 
-<h3>Open the analysis notebook:</h3>
+<h3>7.Open the analysis notebook:</h3>
 <p>In your browser, navigate to the notebook file (e.g., <code>income_analysis.ipynb</code>) and start exploring your financial data.</p>
 
   
