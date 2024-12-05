@@ -22,6 +22,18 @@ The focus is on providing an advanced understanding of income trends, spending b
 - 🗃️ **SQL**: Querying and managing dataset storage  
 - 🛠️ **Git**: Version control and collaboration  
 
+Expected outcome:
+
+Expense Report (2023-10-07 to 2024-08-18):
+----------------------------------------
+Other                €28869.83
+Groceries            €3117.80
+Public Transport     €2147.81
+Dining out           €942.85
+----------------------------------------
+Total Spent:          €35078.29
+Daily Average:        €110.66
+
 ---
 
 ## 📥 Installation and Setup  
