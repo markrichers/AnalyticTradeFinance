@@ -26,12 +26,12 @@ The focus is on providing an advanced understanding of income trends, spending b
 
 ## 📥 Installation and Setup  
 
-1. **Clone the repository**:  
+<h3>1. Clone the repository:</h3>  
    ```bash
    git clone https://github.com/yourusername/AnalyticTradeFinance.git
    ```
 
-2. **Navigate to the project directory**:  
+<h3>2. Navigate to the project directory:</h3>  
    Move into the cloned repository folder:  
    ```bash
    cd AnalyticTradeFinance
