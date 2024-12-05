@@ -1,0 +1,19 @@
+USE COOLBLUE_DB;  
+GO  
+ALTER DATABASE COOLBLUE_DB
+COLLATE Latin1_General_CI_AS ;  
+GO
+
+ALTER DATABASE COOLBLUE_DB SET READ_COMMITTED_SNAPSHOT ON; 
+
+SELECT name FROM sys.server_principals WHERE name = 'WM6';
+SELECT name FROM sys.databases WHERE name = 'COOLBLUE_DB';
+
+USE COOLBLUE_DB;
+CREATE USER WM6 FOR LOGIN WM6;
+ALTER ROLE db_datareader ADD MEMBER WM6;
+ALTER ROLE db_datawriter ADD MEMBER WM6;
+
+SELECT name, collation_name 
+FROM sys.databases 
+WHERE name = 'COOLBLUE_DB';
